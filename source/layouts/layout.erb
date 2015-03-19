@@ -4,7 +4,11 @@
   <%= partial "/layouts/head.erb" %>
 
   <body class="<%= page_classes %>">
+
+    <%= partial "/layouts/navbar.erb" %>
+
     <%= yield %>
+
   </body>
 
 </html>
