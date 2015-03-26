@@ -1,5 +1,5 @@
 .navbar {
-  box-shadow: 0px 0px 5px 4px #999;
+  box-shadow: 0px 0px 5px 4px #999999;
   background: #555555;
   opacity: .96;
 }
@@ -10,4 +10,34 @@
 
 .navbar-brand {
   padding-top: 0px;
+}
+
+footer.section {
+  background-color: #555555 !important;
+}
+
+.footer-bg {
+	min-height: 400px; /* Must have a height or min-height set for background images */
+	background-size: cover;
+	background-position: center center;
+	background-image: url('/images/hero_support.jpg');
+  filter: blur(4px) grayscale(80%);
+}
+
+.footer-overlay {
+	position: absolute;
+	bottom: 80px;
+	right: 0;
+	left: 0;
+}
+
+footer .footer-overlay p {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.copyright p {
+  font-size: 80%;
+  margin:.8em;
+  text-align: center;
 }
