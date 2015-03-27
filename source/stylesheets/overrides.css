@@ -1,3 +1,7 @@
+.text-shadow {
+  text-shadow: 0 0 5px #999999;
+}
+
 .navbar {
   box-shadow: 0px 0px 5px 4px #999999;
   background: #555555;
@@ -24,6 +28,10 @@ footer.section {
   filter: blur(4px) grayscale(80%);
 }
 
+footer.carousel {
+  overflow: hidden; /* To keep blur from bleeding */
+}
+
 .footer-overlay {
 	position: absolute;
 	bottom: 80px;
@@ -31,7 +39,7 @@ footer.section {
 	left: 0;
 }
 
-footer .footer-overlay p {
+footer .footer-overlay p, footer .footer-overlay h1 {
   margin: 0 auto;
   width: 80%;
 }
@@ -39,5 +47,4 @@ footer .footer-overlay p {
 .copyright p {
   font-size: 80%;
   margin:.8em;
-  text-align: center;
 }
