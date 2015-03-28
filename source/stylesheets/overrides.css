@@ -43,25 +43,44 @@ h1, .navbar-header a {
 .navbar-default a {
   color: #FFFFFF;
 }
+.navbar-default .navbar-nav > li {
+}
 
 .navbar-default .navbar-nav > li > a {
   color: #8C9499;
+  padding: 20px;
   text-transform: uppercase;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
   color: #FFFFFF;
-  border-bottom: 2px solid #F25F43;
+  border-bottom: 3px solid #F25F43;
 }
 
 .navbar-default .navbar-nav > li > a:focus {
   color: #FFFFFF;
-  border-bottom: 2px solid #F25F43;
+  border-bottom: 3px solid #F25F43;
 }
 
 .navbar-default .navbar-nav > li.selected > a {
   color: #FFFFFF;
-  border-bottom: 2px solid #F25F43;
+  border-bottom: 3px solid #F25F43;
+}
+
+.navbar-default .navbar-nav > li > a.support {
+  color: #FFFFFF;
+  background-color: #F25F43;
+  border-bottom: 3px solid #F25F43;
+}
+
+.navbar-default .navbar-nav > li > a.support:hover {
+  color: #333333;
+  border-bottom: 3px solid #333333;
+}
+
+.navbar-default .navbar-nav > li > a.support:focus {
+  color: #333333;
+  border-bottom: 3px solid #333333;
 }
 
 .navbar-brand {
