@@ -1,20 +1,23 @@
-/*
- * brand-color: #EC5C42;
- */
-
-
 @font-face {
   font-family: Pacifica;
   src: url('/fonts/Pacifica Condensed Regular.ttf')
 }
 
+/* Colors */
+@brand: #EC5C44;
+@dark: #333333;
+@nav-text: #8C9499;
+@shadow: #999999;
+@text: #555555;
+@white: #FFFFFF;
+
 html, body {
   font-family: Roboto;
-  color: #555555;
+  color: @text;
 }
 
 .text-shadow {
-  text-shadow: 0 0 5px #999999;
+  text-shadow: 0 0 5px @shadow;
 }
 
 h1, .navbar-header a {
@@ -26,13 +29,13 @@ h1, .navbar-header a {
 }
 
 .btn-primary {
-  background-color: #EC5C42;
-  border-color: #EC5C42;
+  background-color: @brand;
+  border-color: @brand;
 }
 
 .navbar {
-  box-shadow: 0px 0px 5px 4px #999999;
-  background: #333333;
+  box-shadow: 0px 0px 5px 4px @shadow;
+  background: @dark;
   opacity: .96;
 }
 
@@ -41,46 +44,46 @@ h1, .navbar-header a {
 }
 
 .navbar-default a {
-  color: #FFFFFF;
+  color: @white;
 }
 .navbar-default .navbar-nav > li {
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #8C9499;
+  color: @nav-text;
   padding: 20px;
   text-transform: uppercase;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  color: #FFFFFF;
-  border-bottom: 3px solid #F25F43;
+  color: @white;
+  border-bottom: 3px solid @brand;
 }
 
 .navbar-default .navbar-nav > li > a:focus {
-  color: #FFFFFF;
-  border-bottom: 3px solid #F25F43;
+  color: @white;
+  border-bottom: 3px solid @brand;
 }
 
 .navbar-default .navbar-nav > li.selected > a {
-  color: #FFFFFF;
-  border-bottom: 3px solid #F25F43;
+  color: @white;
+  border-bottom: 3px solid @brand;
 }
 
 .navbar-default .navbar-nav > li > a.support {
-  color: #FFFFFF;
-  background-color: #F25F43;
-  border-bottom: 3px solid #F25F43;
+  color: @white;
+  background-color: @brand;
+  border-bottom: 3px solid @brand;
 }
 
 .navbar-default .navbar-nav > li > a.support:hover {
-  color: #333333;
-  border-bottom: 3px solid #333333;
+  color: @dark;
+  border-bottom: 3px solid @dark;
 }
 
 .navbar-default .navbar-nav > li > a.support:focus {
-  color: #333333;
-  border-bottom: 3px solid #333333;
+  color: @dark;
+  border-bottom: 3px solid @dark;
 }
 
 .navbar-brand {
@@ -92,7 +95,7 @@ h1, .navbar-header a {
 }
 
 footer.section {
-  background-color: #999999 !important;
+  background-color: @shadow !important;
 }
 
 .footer-bg {
