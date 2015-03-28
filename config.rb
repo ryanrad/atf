@@ -46,6 +46,19 @@ end
 #     "Helping"
 #   end
 # end
+#
+#
+# helpers do
+#   def is_page_selected(page)
+#     current_page.url == page ? {:class => 'is-selected'} : {}
+#   end
+# end
+
+helpers do
+  def is_page_selected(page)
+    current_page.url == page ? "selected" : ''
+  end
+end
 
 set :css_dir, 'stylesheets'
 

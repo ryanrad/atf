@@ -1,3 +1,8 @@
+/*
+ * brand-color: #EC5C42;
+ */
+
+
 @font-face {
   font-family: Pacifica;
   src: url('/fonts/Pacifica Condensed Regular.ttf')
@@ -5,6 +10,7 @@
 
 html, body {
   font-family: Roboto;
+  color: #555555;
 }
 
 .text-shadow {
@@ -19,14 +25,43 @@ h1, .navbar-header a {
   font-family: Roboto;
 }
 
+.btn-primary {
+  background-color: #EC5C42;
+  border-color: #EC5C42;
+}
+
 .navbar {
   box-shadow: 0px 0px 5px 4px #999999;
-  background: #555555;
+  background: #333333;
   opacity: .96;
 }
 
-.navbar a {
+.navbar-default {
+  border: none;
+}
+
+.navbar-default a {
   color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #8C9499;
+  text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #FFFFFF;
+  border-bottom: 2px solid #F25F43;
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+  color: #FFFFFF;
+  border-bottom: 2px solid #F25F43;
+}
+
+.navbar-default .navbar-nav > li.selected > a {
+  color: #FFFFFF;
+  border-bottom: 2px solid #F25F43;
 }
 
 .navbar-brand {
