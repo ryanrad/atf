@@ -1,17 +1,32 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
-  <%= partial "/layouts/head.erb" %>
+<%= partial "/layouts/head.erb" %>
 
-  <body class="<%= page_classes %>">
+<body id="page-top" class="index">
 
-    <%= partial "/layouts/nav.erb" %>
-    <%= partial "/layouts/cover.erb" %>
+<%= partial "/layouts/nav.erb" %>
 
-    <%= yield %>
+<%= partial "/layouts/header.erb" %>
 
-    <%= partial "/layouts/footer.erb" %>
+<%= partial "/layouts/services.erb" %>
 
-  </body>
+<%= partial "/layouts/portfolio.erb" %>
+
+<%= partial "/layouts/about.erb" %>
+
+<%= partial "/layouts/team.erb" %>
+
+<%= partial "/layouts/clients.erb" %>
+
+<%= partial "/layouts/contact.erb" %>
+
+<%= partial "/layouts/footer.erb" %>
+
+<%= partial "/layouts/modals.erb" %>
+
+<%= partial "/layouts/scripts.erb" %>
+
+</body>
 
 </html>
