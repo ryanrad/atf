@@ -56,7 +56,7 @@ end
 
 helpers do
   def is_page_selected(page)
-    current_page.url == page ? "selected" : ''
+    current_page.url == page ? "active" : ''
   end
 end
 
