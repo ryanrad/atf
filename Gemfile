@@ -18,3 +18,7 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 # Use Less for Bootstrap compatibility
 gem "less"
 gem "therubyracer"
+
+# For Heroku deploy
+gem 'puma',      '~> 2.7'
+gem 'rake',      '~> 10.1'
