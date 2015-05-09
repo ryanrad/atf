@@ -22,3 +22,5 @@ gem "therubyracer"
 # For Heroku deploy
 gem 'puma',      '~> 2.7'
 gem 'rake',      '~> 10.1'
+
+gem 'font-awesome-middleman', '~> 4.2.0'
