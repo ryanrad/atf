@@ -1,17 +1,17 @@
 <template name="team">
-<%= partial "/layouts/header.erb" %>
+{{> header }}
 
-<%= partial "/views/team/board.erb" %>
-<%= partial "/views/team/board/john-roach.erb" %>
-<%= partial "/views/team/board/jim-francis.erb" %>
-<%= partial "/views/team/board/jacob-schick.erb" %>
-<%= partial "/views/team/board/sarah-vobora.erb" %>
+{{> board }}
+{{> JohnRoach }}
+{{> JimFrancis }}
+{{> JacobSchick }}
+{{> SarahVobora }}
 
-<%= partial "/views/team/executives.erb" %>
-<%= partial "/views/team/executives/david-vobora.erb" %>
-<%= partial "/views/team/executives/madi-jacob_e.erb" %>
+{{> executives }}
+{{> DavidVobora }}
+{{> MadiJacobExec }}
 
-<%= partial "/views/team/staff.erb" %>
-<%= partial "/views/team/staff/dave-vobora.erb" %>
-<%= partial "/views/team/staff/madi-jacob_t.erb" %>
+{{> staff }}
+{{> DaveVobora }}
+{{> MadiJacobTrainer }}
 </template>
