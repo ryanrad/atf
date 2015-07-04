@@ -10,7 +10,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <%= link_to "Adaptive Training Foundation",    "index.html",   :relative => true,  :class => "navbar-brand" %>
+      <a href="/index" class="navbar-brand">Adaptive Training Foundation</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -20,16 +20,16 @@
           <a href="#page-top"></a>
         </li>
         <li class="<%= is_page_selected("/train.html") %>">
-          <%= link_to "Train with ATF",    "train.html",   :relative => true %>
+          <a href="/train">Train with ATF</a>
         </li>
         <li class="<%= is_page_selected("/team.html") %>">
-          <%= link_to "Meet the Team",     "team.html",    :relative => true %>
+          <a href="/team">Meet the Team</a>
         </li>
         <li class="<%= is_page_selected("/contact.html") %>">
-          <%= link_to "Contact Us",        "contact.html", :relative => true %>
+          <a href="/contact">Contact Us</a>
         </li>
         <li class="<%= is_page_selected("/support.html") %>">
-          <%= link_to "Support ATF",       "support.html", :relative => true, class: "support" %>
+          <a href="/support" class="support">Support ATF</a>
         </li>
       </ul>
     </div> <!-- /.navbar-collapse -->
