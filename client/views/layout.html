@@ -1,17 +1,17 @@
 <template name="layout">
 <html lang="en">
 
-<%= partial "/layouts/head.erb" %>
+{{> head }}
 
 <body id="page-top" class="index">
 
-<%= partial "/layouts/nav.erb" %>
+{{> nav }}
 
-<%= yield %>
+{{> yield }}
 
-<%= partial "/layouts/footer.erb" %>
+{{> footer }}
 
-<%= partial "/layouts/scripts.erb" %>
+{{> scripts }}
 
 </body>
 
