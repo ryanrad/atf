@@ -12,3 +12,4 @@ twbs:bootstrap
 jquery
 fortawesome:fontawesome
 less
+zimme:active-route

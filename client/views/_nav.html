@@ -16,21 +16,35 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
+
         <li class="hidden">
           <a href="#page-top"></a>
         </li>
-        <li class="">
-          <a href="/train">Train with ATF</a>
+
+        <li class="{{isActiveRoute class='active' name='train'}}">
+          <a href="/train">
+            Train with ATF
+          </a>
         </li>
-        <li class="">
-          <a href="/team">Meet the Team</a>
+
+        <li class="{{isActiveRoute class='active' name='team'}}">
+          <a href="/team">
+            Meet the Team
+          </a>
         </li>
-        <li class="">
-          <a href="/contact">Contact Us</a>
+
+        <li class="{{isActiveRoute class='active' name='contact'}}">
+          <a href="/contact">
+            Contact Us
+          </a>
         </li>
-        <li class="">
-          <a href="/support" class="support">Support ATF</a>
+
+        <li class="{{isActiveRoute class='active' name='support'}}">
+          <a href="/support" class="support">
+            Support ATF
+          </a>
         </li>
+
       </ul>
     </div> <!-- /.navbar-collapse -->
   </div> <!-- /.container-fluid -->
