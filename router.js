@@ -15,9 +15,9 @@ Router.configure({
 // template 'about'
 Router.map( function () {
 
-  this.route('startboot', {
-    path: 'startboot',
-    template: 'startboot',
+  this.route('agency', {
+    path: 'agency',
+    template: 'agency',
     where: 'client',
   });
 
