@@ -1,4 +1,5 @@
 Router.configure({
+    fastRender: 'true',
     layoutTemplate: 'layout',
     loadingTemplate: 'loading',
     notFoundTemplate: 'notFound',

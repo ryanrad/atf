@@ -13,3 +13,4 @@ jquery
 fortawesome:fontawesome
 less
 zimme:active-route
+meteorhacks:fast-render
