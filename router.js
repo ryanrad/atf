@@ -22,8 +22,8 @@ Router.map( function () {
     where: 'client',
   });
 
-  this.route('/', {
-    path: 'home',
+  this.route('home', {
+    path: '/',
     template: 'home',
     where: 'client',
   });
