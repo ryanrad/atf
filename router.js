@@ -52,3 +52,16 @@ Router.map( function () {
     where: 'client',
   });
 });
+
+
+// Scroll to #id on page
+
+Router._scrollToHash = function(hash) {
+  var section = $(hash);
+  if (section.length) {
+    var sectionTop = section.offset().top;
+    $("html, body").animate({
+      scrollTop: sectionTop
+    }, 1500);
+  }
+};
