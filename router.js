@@ -51,6 +51,12 @@ Router.map( function () {
     template: 'support',
     where: 'client',
   });
+
+  this.route('pledge', {
+    path: 'pledge',
+    template: 'pledge',
+    where: 'client',
+  });
 });
 
 
