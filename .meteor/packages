@@ -10,8 +10,8 @@ insecure
 iron:router
 twbs:bootstrap
 jquery
-fortawesome:fontawesome
 less
 zimme:active-route
 meteorhacks:fast-render
 okgrow:router-autoscroll
+natestrauser:font-awesome
